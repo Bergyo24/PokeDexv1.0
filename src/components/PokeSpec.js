@@ -2,7 +2,7 @@ import React from 'react'
 
 export const PokeSpec = ({poke}) => {
   return (
-    <div style={{width:'49%', height:'80vh',position:'absolute',top:'0', right:'0',left:'50%'}}>
+    <div style={{width:'40%', height:'80vh',position:'absolute',top:'0', right:'0',left:'60%'}}>
       <figure style={{width:'25%', margin:'auto'}}>
         <img src={poke.sprites.front_default} alt={poke.name.charAt(0).toUpperCase() + poke.name.slice(1)} style={{width:'100%', height:'auto'}}/>
       </figure>

@@ -30,15 +30,15 @@ export const Pokemons = () => {
 
     useEffect(() => {
         getPokemons();
-    }, []) 
+    },[]) 
 
   return (
     <>
-        <div style={{display:'flex', flexWrap:'wrap', width:'49%', height:'80vh',overflowY:'scroll', borderRight: '2px solid grey', margin:'0'}}>
+        <div style={{display:'flex', flexWrap:'wrap', width:'60%', height:'80vh',overflowY:'scroll', borderRight: '2px solid grey', margin:'0'}}>
             {loading && <h1>Please wait...</h1>}
             {!loading && pokeData.map((element, index) =>{
                 return(
-                <Card style={{ width: '15%', height:'15vh',margin:'2.5%', cursor:'pointer' }} key={index} onClick={()=>setClicked({clicked:true, id:index})}>
+                <Card style={{ width: '12.5%', height:'13vh',marginRight:'2%',marginLeft:'2%',marginBottom:'5%',marginTop:'5%', cursor:'pointer' }} key={index} onClick={()=>setClicked({clicked:true, id:index})}>
                 <Card.Img variant="top" src={element.sprites.front_default} alt={element.name} />
                 <Card.Body style={{padding:'0', display:'flex', alignItems:'center'}}>
                     <Card.Title style={{width:'100%',fontSize:'1rem', margin:'0', paddingTop:'5%', textAlign:'center'}}>{element.name.charAt(0).toUpperCase() + element.name.slice(1)}</Card.Title>
