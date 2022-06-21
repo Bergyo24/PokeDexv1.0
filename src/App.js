@@ -6,7 +6,7 @@ function App() {
         <figure style={{width:'auto', height:'10vh', display:'flex', alignItems:'center', justifyContent:'center'}}>
           <img src={require("./pokeball.png")} alt="PokeBall" style={{width:'100%', height:'auto'}} />
         </figure>
-        <h1 style={{textAlign: 'center', color:'white'}}>PokeDex <span style={{fontSize:'1rem'}}>By Bergyo</span></h1>
+        <h1 style={{textAlign: 'center', color:'white'}}>PokeDeX <span style={{fontSize:'1rem'}}>By Bergyo</span></h1>
       </header>
       <main style={{position:'absolute', top:'10vh', width:'100%', height:'90vh', overflow:'auto'}}>
         <Pokemons />
