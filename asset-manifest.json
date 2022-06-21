@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PokeDexv1.0/static/css/main.e7720ab7.css",
+    "main.js": "/PokeDexv1.0/static/js/main.3e270d98.js",
+    "index.html": "/PokeDexv1.0/index.html",
+    "main.e7720ab7.css.map": "/PokeDexv1.0/static/css/main.e7720ab7.css.map",
+    "main.3e270d98.js.map": "/PokeDexv1.0/static/js/main.3e270d98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7720ab7.css",
+    "static/js/main.3e270d98.js"
+  ]
+}
