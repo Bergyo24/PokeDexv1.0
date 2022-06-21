@@ -6,9 +6,9 @@ Created with React and Bootstrap, my goal was to keep dependencies count low.<br
 Data is served by the [PokeAPI](https://pokeapi.co/), theyr [github](https://github.com/PokeAPI/pokeapi).<br>
 You can find:<br>
 -The Build files in the **build** branch<br>
--The Source files in the **main** branch<br>
+-The Source files in the **master** branch<br>
 
-(Main branch/Source files)To run it just download the files to a folder, ```npm install``` and then ```npm start```<br>
+(Master branch/Source files)To run it just download the files to a folder, ```npm install``` and then ```npm start```<br>
 (Build branch/Prod files)To run it just download the files to a folder (child directory), ```npm install serve``` (on the parent directory) and then ```serve -s``` **name of your folder** (also on the parent directory)<br>
 Whatever you downloaded put it in a folder first, insted of on the desktop, to avoid any problem<br>
 Folder structure:<br>
