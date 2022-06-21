@@ -9,7 +9,7 @@ You can find:<br>
 -The Source files in the **master** branch<br>
 
 (Master branch/Source files)To run it just download the files to a folder, ```npm install``` and then ```npm start```<br>
-(Build branch/Prod files)To run it just download the files to a folder (child directory), ```npm install serve``` (on the parent directory) and then ```serve -s **name of your folder**``` (also on the parent directory)<br>
+(Build branch/Prod files)To run it just download the files to a folder (child directory), ```npm install serve``` (on the parent directory) and then ```serve -s name of your folder``` (also on the parent directory)<br>
 Whatever you downloaded put it in a folder first, insted of on the desktop, to avoid any problem<br>
 Folder structure:<br>
 ```
