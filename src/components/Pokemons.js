@@ -13,7 +13,7 @@ export const Pokemons = () => {
         let resData = await res.json();
         getPokeData(resData);
         setPokemon(resData.next);
-        console.log(resData);
+        //console.log(resData);
         setLoading(false);
     }
     const getPokeData = async (data)=>{
