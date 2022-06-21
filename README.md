@@ -1,17 +1,21 @@
-# PokeDexv1.0
+# PokeDeXv1.0
 ![pokedex](https://user-images.githubusercontent.com/77859854/174774503-785dbba5-a860-41e3-aa53-6eeead571d25.png)
 
 First version of "my" Pokedex, it is more a proof of concept than an actual app, in future releases i'll make it more viable for mobile devices.<br>
 Created with React and Bootstrap, my goal was to keep dependencies count low.<br>
 Data is served by the [PokeAPI](https://pokeapi.co/), theyr [github](https://github.com/PokeAPI/pokeapi).<br>
+<br>
 You can find:<br>
 -The Build files in the **gh-pages** branch<br>
 -The Source files in the **master** branch<br>
 
 (Master branch/Source files)To run it just download the files to a folder, ```npm install``` and then ```npm start```<br>
 (GH-pages branch/Prod files)To run it just download the files to a folder (child directory), ```npm install serve``` (on the parent directory) and then ```serve -s name of your folder``` (also on the parent directory)<br>
+<br>
 (You can also use any kind of server that you may have installed on your machine)<br>
+<br>
 Whatever you downloaded put it in a folder first, insted of on the desktop, to avoid any problem<br>
+<br>
 Folder structure:<br>
 ```
 /-root directory<br>
