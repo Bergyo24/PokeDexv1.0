@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import {Pokemons} from './components/Pokemons.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div style={{position:'relative'}}>
+      <header style={{height: '10vh', width:'100%', display:'flex', alignItems:'center', justifyContent:'center',backgroundColor:'#282c34', position:'absolute', marginBottom:'10vh'}}>
+        <figure style={{width:'auto', height:'10vh', display:'flex', alignItems:'center', justifyContent:'center'}}>
+          <img src="/pokeball.png" alt="PokeBall" style={{width:'100%', height:'auto'}} />
+        </figure>
+        <h1 style={{textAlign: 'center', color:'white'}}>PokeDex <span style={{fontSize:'1rem'}}>By Bergyo</span></h1>
+
       </header>
+      <main style={{position:'absolute', top:'10vh', width:'100%', height:'90vh', overflow:'auto'}}>
+        <Pokemons />
+      </main>
     </div>
   );
 }
